@@ -1,0 +1,11 @@
+services:
+  bot:
+    build: .
+    container_name: markovbot
+    env_file:
+      - .env
+    environment:
+      - DEVELOPMENT_MODE=true
+    volumes:
+      - .:/bot
+      - ~/.ssh:/home/markovbot/.ssh:ro

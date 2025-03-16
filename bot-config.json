@@ -1,0 +1,28 @@
+{
+    "COGS": {},
+    "COOLDOWN": {
+        "RATE": 3,
+        "STANDARD": 60,
+        "EXTENDED": 3600,
+        "NO_COOLDOWN_USERS": [
+            151378138612367360
+        ],
+        "NO_COOLDOWN_SERVERS": [
+            237647756049514498
+        ]
+    },
+    "DISCORD": {
+        "MAX_CHARS": 1950,
+        "DEVELOPMENT_SERVERS": [
+            815237689775357992
+        ]
+    },
+    "FILES": {},
+    "LOGFILE": {
+        "LOG_NAME": "markovbot",
+        "LOG_LOCATION": "logs/markovbot.log"
+    },
+    "MARKOV": {
+        "ENABLE_MARKOV_TRAINING": true
+    }
+}
